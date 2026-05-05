@@ -1,0 +1,106 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Tution</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #185FA5;
+      border-bottom: 2px solid #B5D4F4;
+      padding-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #185FA5;
+    }
+
+    p, ol {
+      line-height: 1.8;
+      color: #555;
+    }
+
+    form {
+      background: #E6F1FB;
+      border-radius: 12px;
+      padding: 1.5rem;
+      border: 1px solid #B5D4F4;
+      margin: 1.5rem 0;
+    }
+
+    label {
+      font-size: 14px;
+      font-weight: bold;
+      color: #0C447C;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      padding: 8px 12px;
+      border: 1px solid #85B7EB;
+      border-radius: 8px;
+      font-size: 15px;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background: #185FA5;
+      color: white;
+      border: none;
+      padding: 10px 28px;
+      border-radius: 8px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background: #0C447C;
+    }
+  </style>
+</head>
+<body>
+    <h1> <hr> Welcome to Online Tution</h1>
+    <p>We offer a variety of courses to help you succeed in your studies.</p>
+    <ol>
+        <li>Mathematics</li>
+        <li>Science</li>
+        <li>English</li>
+        <li>History</li>
+        <li>Computer Science</li>
+    </ol>
+    <h1>Enrollment Process</h1>
+    <p>To enroll in our courses, please follow these steps:</p>
+    <ol>
+        <li>Visit our website and create an account.</li>
+        <li>Browse our course offerings and select the courses you want to enroll in.</li>
+        <li>Complete the enrollment form and submit it.</li>
+        <li>Make the payment for the selected courses.</li>
+        <li>Once your enrollment is confirmed, you will receive access to the course materials.</li>
+    </ol>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    
+    <p>Contact us for more information about our courses and enrollment process.</p>
+    <h2>Contact Information</h2>
+    <p>Email: info@onlinetution.com</p>
+    <p>Phone: 123-456-7890</p>
+
+</body>
+</html>
